@@ -1,0 +1,30 @@
+body {
+  margin: 1em;
+  padding: 1em;
+}
+#container {
+  background-color: #fbf7e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 300px;
+}
+main img {
+  width: 400px;
+}
+main h3 {
+  margin: 0.4em;
+  margin-left: 0.1em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+#textcontainer {
+  color: #612406;
+  width: 45%;
+  margin: 0.6em;
+  padding: 4em;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
+  font-size: 0.8em;
+}

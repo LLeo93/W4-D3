@@ -1,0 +1,67 @@
+body {
+  width: 360px;
+  margin: 2.8em;
+  padding: 1em;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footercard {
+  width: 98%;
+  height: 150px;
+  border-radius: 0 0 50px 50px;
+  background-color: #fbf7e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#pepricecontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#pricecontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+div img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50px 50px 0 0;
+}
+#description1 {
+  margin: 0.5em;
+  color: #612406;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#description2 {
+  margin: 0.5em;
+  color: #612406;
+  font-size: 1.4em;
+  text-align: center;
+}
+#price {
+  margin: 0.5em;
+  color: #612406;
+  font-size: 1.8em;
+}
+#buttoncard {
+  width: 60%;
+  border-radius: 20px;
+}
+#button {
+  margin: 0.5em;
+  background-color: #f3df85;
+  border: 0px;
+  color: #612406;
+  width: 100%;
+  padding: 0.5em 0;
+  border-radius: 20px;
+}

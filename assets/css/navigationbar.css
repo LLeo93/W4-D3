@@ -1,0 +1,50 @@
+body {
+  width: 1020px;
+  margin: 2.8em;
+  padding: 1em;
+}
+#navigationcontainer {
+  width: 1000px;
+  background-color: #fbf7e3;
+  height: 130px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.button {
+  border: 0px;
+  background-color: #f3df85;
+  padding: 1em;
+  margin: 0.2em;
+  height: 50%;
+  width: 140px;
+  border-radius: 50px;
+  color: #612406;
+  font-size: 1.1em;
+  cursor: pointer;
+  flex-grow: 0;
+}
+#button {
+  border: 0px;
+  background-color: #f3df85;
+  padding: 1em;
+  margin: 0.2em;
+  height: 90px;
+  width: 140px;
+  border-radius: 50px;
+  color: #612406;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+#logocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
